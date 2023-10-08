@@ -13,7 +13,7 @@ public class BEV extends Vehicle
 	@Override
 	public void ShowCharacteristics()
 	{
-		System.out.print("BEV \"" + super.getName() + "\" from " + super.getManufacterer().getName() + ", ");
+		System.out.print("BEV \"" + super.getName() + "\" from " + super.getManufacturer().getName() + ", ");
 		System.out.print("engine serial-number: \"" + engine.getSerialNumber() + "\", ");
 		System.out.println("electric power: " + engine.getElectricPower() + "kW");
 	}

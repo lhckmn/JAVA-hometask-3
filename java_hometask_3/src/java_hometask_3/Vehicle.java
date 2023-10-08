@@ -3,19 +3,19 @@ package java_hometask_3;
 public abstract class Vehicle
 {
 	private String name;
-	private Manufacturer manufacterer;
+	private Manufacturer manufacturer;
 	public abstract void ShowCharacteristics();
 	
 	public Vehicle()
 	{
 		this.name = "";
-		this.manufacterer = new Manufacturer();
+		this.manufacturer = new Manufacturer();
 	}
 	
 	public Vehicle(String name, String nameOfManufacturer)
 	{
 		this.name = name;
-		this.manufacterer = new Manufacturer(nameOfManufacturer);
+		this.manufacturer = new Manufacturer(nameOfManufacturer);
 	}
 
 	public String getName()
@@ -28,13 +28,13 @@ public abstract class Vehicle
 		this.name = name;
 	}
 
-	public Manufacturer getManufacterer()
+	public Manufacturer getManufacturer()
 	{
-		return manufacterer;
+		return manufacturer;
 	}
 
-	public void setManufacterer(Manufacturer manufacterer)
+	public void setManufacturer(Manufacturer manufacturer)
 	{
-		this.manufacterer = manufacterer;
+		this.manufacturer = manufacturer;
 	}
 }

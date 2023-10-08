@@ -13,7 +13,7 @@ public class ICEV extends Vehicle
 	@Override
 	public void ShowCharacteristics()
 	{
-		System.out.print("ICEV \"" + super.getName() + "\" from " + super.getManufacterer().getName() + ", ");
+		System.out.print("ICEV \"" + super.getName() + "\" from " + super.getManufacturer().getName() + ", ");
 		System.out.print("engine serial-number: \"" + engine.getSerialNumber() + "\", ");
 		System.out.println("displacement: " + engine.getDisplacement() + "ccm");
 	}

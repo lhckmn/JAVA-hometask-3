@@ -13,7 +13,7 @@ public class HybridV extends Vehicle
 	@Override
 	public void ShowCharacteristics()
 	{
-		System.out.print("HybridV \"" + super.getName() + "\" from " + super.getManufacterer().getName() + ", ");
+		System.out.print("HybridV \"" + super.getName() + "\" from " + super.getManufacturer().getName() + ", ");
 		System.out.print("engine serial-number: \"" + engine.getSerialNumber() + "\", ");
 		System.out.print("displacement: " + engine.getDisplacement() + "ccm, ");
 		System.out.println("electric power: " + engine.getElectricPower() + "kW");
